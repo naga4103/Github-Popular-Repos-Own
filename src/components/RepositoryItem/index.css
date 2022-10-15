@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  width: 250px;
+  margin-bottom: 25px;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.repo-logo {
+  width: 100px;
+  border-radius: 8px;
+}
+.heading {
+  color: #e73959;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.para-logo {
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+.para {
+  align-self: center;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}

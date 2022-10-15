@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.on-active-list-class {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 6px;
+  border-color: blue;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 12px;
+  list-style-type: none;
+  font-size: 20px;
+  color: blue;
+  font-family: 'Roboto';
+  padding: 5px;
+}
+.on-non-active-list-class {
+  color: black;
+  border-width: 0px;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 550px) {
+  .on-active-list-class {
+    margin-right: 16px;
+    font-size: 16px;
+  }
+  .on-non-active-list-class {
+    margin-right: 16px;
+    font-size: 16px;
+  }
+}
